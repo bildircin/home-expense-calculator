@@ -60,7 +60,7 @@ class TotalAmountTable extends React.Component{
                                             {editList}
                                         </tbody>
                                     </Table>
-                                    <div>
+                                    <div style={{ marginBottom:"15px" }}>
                                         <AmountShow totalAmount={totalAmount} />
                                     </div>
                                         
