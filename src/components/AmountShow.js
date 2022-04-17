@@ -4,7 +4,7 @@ class AmountShow extends Component {
     render() {
         return (
             <div style={{ display:'inline-block' }}>
-                Total Amount: {this.props.totalAmount} ₺
+                Total Amount: <span style={{ fontSize:"20px" }}><strong>₺{this.props.totalAmount}</strong></span>
             </div>
         );
     }

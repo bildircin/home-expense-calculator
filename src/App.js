@@ -12,8 +12,8 @@ class App extends React.Component {
         <div className="ui container">
             <h1 className="ui header center aligned" style={{ margin:'30px 0px' }}>Home Expense Calculator</h1>
             <TotalAmountTable />
-            <AmountModal />
-            <AddButton />
+            <AmountModal type="general" />
+            <AddButton type="general" />
             <AddModal />
         </div>
       </div>
